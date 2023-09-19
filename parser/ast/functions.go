@@ -366,6 +366,10 @@ const (
 	NextVal = "nextval"
 	LastVal = "lastval"
 	SetVal  = "setval"
+
+	// Custom JSON Array Functions
+	XCosineSim  = "x_cosine_sim"
+	XDotProduct = "x_dot_product"
 )
 
 type FuncCallExprType int8
